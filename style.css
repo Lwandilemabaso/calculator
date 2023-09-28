@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: 'Martian Mono', monospace;  
+}
+body{
+    text-align: center;
+    background: linear-gradient(to right, #fc5c7d, #6a82fb);
+     justify-content: center;
+}
+label {
+    display: block;
+    color: #fff;
+    padding-bottom: 8px;
+    
+}
+
+button {
+    background: #fff;
+    outline: none;
+    border: none;
+    width: 20%;
+    padding: 10px 0;
+    border-radius: 8px;
+    transition: .4s;
+    border: 1px solid #fff;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+    background: #ffffff4f;
+    border: 1px solid #fff;
+    transition: .4s;
+}
+p{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

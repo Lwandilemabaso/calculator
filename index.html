@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <form id="calculator-form">
+        <label for="num1">Enter first number:</label>
+        <input type="number" id="num1" name="num1" required>
+        
+        <label for="num2">Enter second number:</label>
+        <input type="number" id="num2" name="num2" required>
+        
+        <p>Select an operation:</p>
+        <label>
+            <input type="radio" name="operation" value="addition" required> Addition
+        </label>
+        <label>
+            <input type="radio" name="operation" value="subtraction"> Subtraction
+        </label>
+        <label>
+            <input type="radio" name="operation" value="multiplication"> Multiplication
+        </label>
+        <label>
+            <input type="radio" name="operation" value="division"> Division
+        </label>
+        
+        <button type="button" onclick="calculate()">Calculate</button>
+        <button type="button" onclick="resetCalculator()">Reset</button>
+        
+        <div id="result">
+            Result: <span id="output">--</span>
+        </div>
+    </form>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
